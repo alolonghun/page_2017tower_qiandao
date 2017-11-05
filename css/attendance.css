@@ -1,0 +1,120 @@
+body {
+	font-family: "Microsoft Yahei light"
+}
+header {
+	width: 100%;
+	height: 160px;
+	background: url(../image/header_bg.png) center no-repeat;
+}
+.clearfix { *zoom: 0; }
+.clearfix::after {
+	content: '';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.logo, .title {
+	display: inline-block;
+	float: left;
+}
+.logo {
+	width: 184px;
+	height: 90px;
+	background: url(../image/header_logo.png) center no-repeat;
+	margin: 35px 200px;
+}
+.title {
+	width: 451px;
+	height: 44px;
+	background: url(../image/header_title.png) center no-repeat;
+	margin-top: 58px;	
+}
+.search {
+	width: 400px;
+	height: 50px;
+	background: #eee;
+	border-radius: 30px;
+	float: left;
+	margin: 55px 200px;
+}
+.search_ipt {
+	width: 335px;
+	height: 100%;
+	float: left;
+	padding-left: 30px;
+}
+.search_ipt input {
+	width: 100%;
+	height: 100%;
+	background: #eee;
+	font-size: 20px;
+	border: none;
+	outline: none;	
+}
+.search_sub {
+	width: 50px;
+	height: 100%;
+	background: #eee;
+	border: none;
+	outline: none;
+	background: url(../image/search.png) center no-repeat;
+}
+.container {
+	width: 90%;
+	margin-top: 30px;
+	cursor: pointer;
+	font-size: 18px;
+}
+th, td {
+	text-align: center;
+}
+.myBtn {
+	width: 120px;
+	height: 40px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #2977d2;  
+	outline: none;
+	border: none;
+	border-radius: 6px;
+}
+tbody tr:hover {
+	background: #f7f1da;
+}
+.myBtnActive {
+	background-color: transparent;
+	color: #f38033;
+}
+.table tbody tr td {
+	vertical-align: middle;
+}
+.btn-primary.active:hover {
+	background: #ccc;
+}
+footer {
+	width: 100%;
+	text-align: center;
+}
+footer button {
+	margin: 0 10px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	margin-top: 50px;	
+}
+.preBtn, .nextBtn {
+	width: 105px;
+	background: #ccc;
+}
+.page {
+	width: 44px;
+	background: #fff;	
+}
+.select {
+	background: #2977d2;
+	color: #fff;
+}
